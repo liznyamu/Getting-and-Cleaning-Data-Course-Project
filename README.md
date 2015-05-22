@@ -16,3 +16,45 @@ You should create one R script called run_analysis.R that does the following.
   
 ## Dependecies 
 The ```run_analysis.R``` requires ```dpylr``` package . Install the package as: ```install.packages("dpylr")```
+
+## Running run_analyis.R
+On running the ```run_analysis.R``` the you will see below sampled output :- 
+
+     ********************************************************
+     Getting and Cleaning Data Course Project
+     ********************************************************
+     Downloading Test Data .........
+     --2015-05-23 00:40:54--  https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
+     .
+     .
+     .
+     Saving to: 'data/untidyData.zip'
+
+        0K .......... .......... .......... .......... ..........  0%  271K 3m45s
+        50K .......... .......... .......... .......... ..........  0%  274K 3m44s
+        100K .......... .......... .......... .......... ..........  0%  278K 3m42s
+        150K .......... .......... .......... .......... ..........  0% 7.01M 2m49s
+     .
+     .
+     .
+
+     - Download At -
+     Date : 2015-05-23
+     Time : 2015-05-23 00:38:53
+     ********************************************************
+     Unziping Test Data .........
+     ********************************************************
+     Removing 'Inertial Signals' Files 
+     ********************************************************
+     Loading and Merging Test and Train Data ......
+     ********************************************************
+     Extracting Mean and Standard Deviations .........
+     ********************************************************
+     Merging Test Data with Activity Labels .........
+     ********************************************************
+     Re-Labeling Column Names with Descriptive Names .........
+     ********************************************************
+     Finalizing Cleaning Data ......
+     ********************************************************
+     Data Cleaning Completed
+     ********************************************************

@@ -15,7 +15,7 @@ You should create one R script called run_analysis.R that does the following.
   - the output file ```tidy_data.txt``` will be created on your working directory
   
 ## Dependecies 
-The ```run_analysis.R``` requires ```dpylr``` package . Install the package as: ```install.packages("dpylr")```
+The ```run_analysis.R``` requires ```dpylr``` package  and ```download``` package. Install the package as: ```install.packages("dpylr")``` and ```install.packages("download")```
 
 ## Running run_analyis.R
 On running the ```run_analysis.R``` the you will see below sampled output :- 

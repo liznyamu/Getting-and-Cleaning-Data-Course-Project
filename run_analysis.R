@@ -104,9 +104,8 @@ relabel <- function(columnNames){
   
   #d) remove heifens and brackets
   columnNames <- gsub("\\-mean\\(\\)", "Mean", columnNames)
-  columnNames <- gsub("\\-mean\\(\\)\\-", "Mean", columnNames)
   columnNames <- gsub("\\-std\\(\\)", "Std", columnNames)
-  columnNames <- gsub("\\-std\\(\\)\\-", "Std", columnNames)
+  columnNames <- gsub("-", "", columnNames)
  
 }
 

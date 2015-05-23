@@ -7,12 +7,12 @@ output: pdf_document
 This a CodeBook describing variables on Tidy Dataset on the file : ```tidy_data.txt```
 
 + subjectID          
-                1
+                    1
             An identifier of the subject who carried out the experiment
-                1 ... 30 Unique identifiers assigned to each subject
+                    1 ... 30 Unique identifiers assigned to each subject
 
 + activityLabel         
-                18
+                    1
               Activity labels
               1        WALKING
               2   WALKING_UPSTAIRS
